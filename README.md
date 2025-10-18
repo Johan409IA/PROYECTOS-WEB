@@ -41,6 +41,9 @@ cd tu-repositorio
 # Abre layout.html en tu navegador
 ```
 
+## URL DEL SITIO
+- La web es <https://roadmap.sh/projects/basic-html-website>
+
 ## 🔮 **Pasos Futuros**
 
 La estructura actual es solo el esqueleto. Los siguientes pasos para evolucionar este proyecto incluyen:
