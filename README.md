@@ -43,6 +43,7 @@ cd tu-repositorio
 
 ## URL DEL SITIO
 - La web es <https://roadmap.sh/projects/basic-html-website>
+- La web del reto de testimonio es <https://roadmap.sh/projects/testimonial-cards>
 
 ## 🔮 **Pasos Futuros**
 
