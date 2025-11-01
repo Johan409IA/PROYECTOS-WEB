@@ -1,0 +1,260 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI";
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card1 {
+  width: 320px;
+  height: 300px;
+  background-color: #a05e62;
+  color: #f7c59f;
+}
+
+.perfil {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+}
+
+.container-card {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.container-info {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+}
+.testimonial-card .parrafo {
+  padding: 15px;
+}
+
+.card1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #000;
+  border-radius: 20px;
+}
+
+.info-text .puesto {
+  margin: 0;
+}
+
+.info-text .nombre {
+  margin: 0;
+}
+
+/* SEGUNDO TESTIMONIO */
+.card2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+}
+
+.perfil-susan {
+  width: 300px;
+  height: 280px;
+  border-radius: 15px;
+}
+
+.card2 .contenedor-info {
+  width: 500px;
+  height: 280px;
+  background-color: #332918;
+  color: #fff7ef;
+  border-radius: 5px;
+}
+
+.contenedor-info .nombre {
+  padding: 0px 15px;
+  padding-top: 10px;
+  margin: 0;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.contenedor-info .puesto {
+  padding: 0px 15px;
+  margin: 0;
+  color: #fff7;
+}
+
+.contenedor-svg {
+  width: 100%;
+  height: 80px;
+  padding-left: 15px;
+}
+
+/* TARJETA 3*/
+
+.testimonial-slider-container {
+  background-color: #ffffff;
+  border: 1px solid #e5e7eb; /* Equivalente a border-gray-200 */
+  border-radius: 0.75rem; /* rounded-xl */
+  padding: 2rem;
+  max-width: 45rem; /* Ajustar según sea necesario para el ancho de la imagen */
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.testimonial-text {
+  font-size: 1rem;
+  line-height: 1.6; /* Un poco más espaciado para mejor legibilidad */
+  color: #374151; /* gray-700 */
+  margin-bottom: 2rem;
+  max-width: 80%; /* Para centrar y limitar el ancho del texto */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.testimonial-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem; /* Espacio entre los elementos de navegación */
+  margin-top: 2rem;
+}
+
+.nav-arrow {
+  font-size: 1.5rem; /* Tamaño de la flecha */
+  color: #9ca3af; /* gray-400 */
+  cursor: default; /* Indicar que no es interactivo */
+  user-select: none; /* Prevenir selección de texto */
+}
+
+.avatar-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 -0.5rem; /* Ajustar para superposición */
+}
+
+.avatar {
+  width: 3.5rem; /* 56px */
+  height: 3.5rem; /* 56px */
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #ffffff; /* Borde blanco para resaltar */
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s ease-in-out; /* Transición para efecto hover (opcional) */
+  margin: 0 -0.5rem; /* Superposición */
+}
+
+.avatar:nth-child(2) {
+  /* El avatar central es más grande */
+  width: 4.5rem; /* 72px */
+  height: 4.5rem; /* 72px */
+  z-index: 10; /* Para que esté por encima de los otros */
+  border: 3px solid #ffffff; /* Borde más grueso */
+  transform: scale(1.15); /* Ligeramente más grande */
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1),
+    0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.author-name {
+  font-size: 1.125rem; /* text-lg */
+  font-weight: 600; /* font-semibold */
+  color: #111827; /* gray-900 */
+  margin-top: 1.5rem; /* Espacio entre avatares y nombre */
+}
+
+/* Imágenes de placeholder para los avatares */
+.avatar-placeholder-1 {
+  background-color: #d1d5db; /* gray-300 */
+}
+.avatar-placeholder-2 {
+  background-color: #e5e7eb; /* gray-200 */
+}
+.avatar-placeholder-3 {
+  background-color: #d1d5db; /* gray-300 */
+}
+
+
+/* TARJETA 4*/
+
+/* Contenedor principal de la tarjeta */
+.testimonial-card {
+  max-width: 24rem; /* max-w-sm */
+  width: 100%;
+}
+
+/* Burbuja de diálogo del testimonio */
+.testimonial-bubble {
+  position: relative;
+  background-color: #1f2937; /* bg-gray-800 */
+  color: #ffffff; /* text-white */
+  padding: 1.5rem; /* p-6 */
+  border-radius: 0.75rem; /* rounded-xl */
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05); /* shadow-lg */
+}
+
+/* Texto del testimonio */
+.testimonial-text {
+  font-size: 1rem; /* text-base */
+  line-height: 1.5rem;
+  font-weight: 500; /* font-medium */
+  margin: 0;
+  color: #fff;
+}
+
+.testimonial-text + .testimonial-text {
+  margin-top: 1rem; /* mt-4 */
+}
+
+/* El "Cachito" (cola de la burbuja) */
+.testimonial-bubble::after {
+  content: '';
+  position: absolute;
+  left: 2.5rem; /* left-10 */
+  bottom: -0.75rem; /* -bottom-3 */
+  width: 0;
+  height: 0;
+  border-top: 15px solid #1f2937; /* border-t-gray-800 */
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+}
+
+/* Sección del autor (Avatar e Info) */
+.author-section {
+  display: flex;
+  align-items: center;
+  margin-top: 1rem; /* mt-4 */
+}
+
+/* Avatar */
+.author-avatar {
+  width: 4rem; /* w-16 */
+  height: 4rem; /* h-16 */
+  border-radius: 9999px; /* rounded-full */
+  margin-right: 1rem; /* mr-4 */
+  object-fit: cover;
+}
+
+/* Información del Autor */
+
+.author-name {
+  font-size: 1.125rem; /* text-lg */
+  line-height: 1.75rem;
+  font-weight: 600; /* font-semibold */
+  color: #111827; /* text-gray-900 */
+}
+
+.author-title {
+  font-size: 0.875rem; /* text-sm */
+  line-height: 1.25rem;
+  color: #4b5563; /* text-gray-600 */
+}
